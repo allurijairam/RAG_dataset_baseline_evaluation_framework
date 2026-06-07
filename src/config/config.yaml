@@ -1,0 +1,7 @@
+dataset_path: rajpurkar/squad_v2
+split: validation
+num_docs: 10      # -1 = all documents
+num_eval: 10      # -1 = all evaluation samples
+load_docs: True   # set to true to run ingestion before evaluation
+ISBM25: True      # set to true to build and use BM25 index
+run_async: False  # set to true to run evaluation asynchronously

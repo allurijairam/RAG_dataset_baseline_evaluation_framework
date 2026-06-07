@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.deepeval/
+test.ipynb
+.claude/
+
+# generated artifacts / run outputs
+faiss_squad_index/
+src/faiss_squad_index/
+src/BM25/*.pkl
+deepeval_results.csv
+evaluation_results_*.xlsx
+
